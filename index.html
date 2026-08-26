@@ -3,13 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stingrays</title>
-    <link rel="stylesheet" href="style.css">
+    <title>All About Stingrays</title>
+
+    <style>
+        /* Main page */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e8f8ff;
+            color: #123;
+        }
+
+        /* Header */
+        header {
+            background-color: #0077a8;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 45px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #005b82;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #8ee8ff;
+        }
+
+        /* Main sections */
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            color: #0077a8;
+            font-size: 30px;
+        }
+
+        /* Facts */
+        .facts {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .fact {
+            background-color: #d9f5ff;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .fact h3 {
+            color: #005b82;
+        }
+
+        /* Image */
+        .stingray-image {
+            width: 100%;
+            max-width: 700px;
+            display: block;
+            margin: auto;
+            border-radius: 12px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #005b82;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-<main>
-    <h1>Stingrays</h1>
-</main>
-</body> 
-</html>
-: <img src="Stingray.Jpg" alt="Stingray">
+
+    <!-- Header -->
+    <header>
+        <h1>🌊 All About Stingrays 🌊</h1>
+        <p>Discover one of the ocean's most interesting animals</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#facts">Facts</a>
+        <a href="#adaptations">Adaptations</a>
+        <a href="#habitat">Habitat</a>
+    </nav>
+
+    <!-- About -->
+    <section id="about">
+        <h2>What is a Stingray?</h2>
+
+        <p>
+            Stingrays are marine animals that are closely related to sharks.
+            They are cartilaginous fish, meaning that their skeletons are made
+            mostly of cartilage instead of bone.
+        </p>
+
+        <p>
+            Stingrays have flat bodies and large, wing-like fins which they use
+            to move through the water. They can be found in oceans around the
+            world, especially in warm coastal waters.
+        </p>
+    </section>
+
+    <!-- Facts -->
+    <section id="facts">
+        <h2>🧠 Interesting Facts</h2>
+
+        <div class="facts">
+
+            <div class="fact">
+                <h3>Did You Know?</h3>
+                <p>
+                    Stingrays are related to sharks because both belong to a
+                    group of fish with skeletons made from cartilage.
+                </p>
+            </div>
+
+            <div class="fact">
+                <h3>Size</h3>
+                <p>
+                    Different stingray species can vary greatly in size.
+                    Some are relatively small, while others can have very
+                    large wingspans.
+                </p>
+            </div>
+
+            <div class="fact">
+                <h3>Food</h3>
+                <p>
+                    Many stingrays eat animals such as small fish, crabs,
+                    shrimp, worms and other creatures that live on the
+                    seafloor.
+                </p>
+            </div>
+
+            <div class="fact">
+                <h3>Movement</h3>
+                <p>
+                    Stingrays use their large fins to glide or flap through
+                    the water.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Adaptations -->
+    <section id="adaptations">
+        <h2>🧬 Stingray Adaptations</h2>
+
+        <p>
+            Stingrays have several adaptations that help them survive in
+            their environment.
+        </p>
+
+        <ul>
+            <li><strong>Flat bodies:</strong> Help them stay close to the seafloor.</li>
+            <li><strong>Camouflage:</strong> Their colours can help them blend into sand and other surfaces.</li>
+            <li><strong>Electroreception:</strong> They can detect electrical signals produced by other animals.</li>
+            <li><strong>Spines:</strong> Some stingrays have a venomous spine on their tail that can be used for defence.</li>
+            <li><strong>Powerful fins:</strong> Their large fins allow them to move efficiently through water.</li>
+        </ul>
+    </section>
+
+    <!-- Habitat -->
+    <section id="habitat">
+        <h2>🌎 Where Do Stingrays Live?</h2>
+
+        <p>
+            Stingrays live in many different marine environments. Many species
+            are found in shallow coastal waters, while others live in deeper
+            parts of the ocean.
+        </p>
+
+        <p>
+            They can often be found around sandy or muddy seafloors, coral
+            reefs, estuaries and other coastal habitats.
+        </p>
+    </section>
+
+    <!-- Conclusion -->
+    <section>
+        <h2>🐟 Why Are Stingrays Important?</h2>
+
+        <p>
+            Stingrays are an important part of marine ecosystems. They help
+            control populations of animals that live on the seafloor and are
+            also part of the food web.
+        </p>
+
+        <p>
+            Learning about stingrays helps us understand the importance of
+            protecting marine environments and the animals that live in them.
+        </p>
+<img src="Stingray.jpeg" alt="A blue stingray " style="margin-left: 100px;" top="200">

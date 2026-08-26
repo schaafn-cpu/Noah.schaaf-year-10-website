@@ -5,11 +5,14 @@ h1 {
   font-family: 'Courier New', monospace;
 }
 h1 {
-  position: absolute;
   top: 50px;
   right: 100px;
 }
 body {
     background-color: #104a63;
-    color: #ffffff;            
+    color: #ffffff;
+}
+
+img {
+    margin-left: 50px;
 }
